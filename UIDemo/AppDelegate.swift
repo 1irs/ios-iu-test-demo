@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  UIDemo
 //
-//  Created by Vladimir Obrizan on 20.06.2020.
-//  Copyright © 2020 First Institute of Reliable Software. All rights reserved.
+//  Created by Vladimir Obrizan on 30.05.2020.
+//  Copyright © 2020 Design and Test Lab. All rights reserved.
 //
 
 import UIKit

@@ -14,6 +14,10 @@
 		BCDF1D78249DD27C008FA478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDF1D77249DD27C008FA478 /* Assets.xcassets */; };
 		BCDF1D7B249DD27C008FA478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDF1D79249DD27C008FA478 /* LaunchScreen.storyboard */; };
 		BCDF1D86249DD27D008FA478 /* UIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1D85249DD27D008FA478 /* UIDemoUITests.swift */; };
+		BCDF1D92249DDC84008FA478 /* FakeSuggestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1D91249DDC84008FA478 /* FakeSuggestService.swift */; };
+		BCDF1D94249DDCC9008FA478 /* DNTLSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1D93249DDCC9008FA478 /* DNTLSearchViewController.swift */; };
+		BCDF1D96249DDD03008FA478 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1D95249DDD03008FA478 /* Suggestion.swift */; };
+		BCDF1D98249DE0BE008FA478 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDF1D97249DE0BD008FA478 /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		BCDF1D81249DD27D008FA478 /* UIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDF1D85249DD27D008FA478 /* UIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDemoUITests.swift; sourceTree = "<group>"; };
 		BCDF1D87249DD27D008FA478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDF1D91249DDC84008FA478 /* FakeSuggestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeSuggestService.swift; sourceTree = "<group>"; };
+		BCDF1D93249DDCC9008FA478 /* DNTLSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNTLSearchViewController.swift; sourceTree = "<group>"; };
+		BCDF1D95249DDD03008FA478 /* Suggestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		BCDF1D97249DE0BD008FA478 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		BCDF1D6D249DD277008FA478 /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCDF1D97249DE0BD008FA478 /* MasterViewController.swift */,
+				BCDF1D95249DDD03008FA478 /* Suggestion.swift */,
+				BCDF1D93249DDCC9008FA478 /* DNTLSearchViewController.swift */,
+				BCDF1D90249DDC84008FA478 /* SearchService */,
 				BCDF1D6E249DD277008FA478 /* AppDelegate.swift */,
 				BCDF1D70249DD277008FA478 /* SceneDelegate.swift */,
 				BCDF1D72249DD277008FA478 /* ViewController.swift */,
@@ -97,6 +109,14 @@
 				BCDF1D87249DD27D008FA478 /* Info.plist */,
 			);
 			path = UIDemoUITests;
+			sourceTree = "<group>";
+		};
+		BCDF1D90249DDC84008FA478 /* SearchService */ = {
+			isa = PBXGroup;
+			children = (
+				BCDF1D91249DDC84008FA478 /* FakeSuggestService.swift */,
+			);
+			path = SearchService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +221,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCDF1D73249DD277008FA478 /* ViewController.swift in Sources */,
+				BCDF1D92249DDC84008FA478 /* FakeSuggestService.swift in Sources */,
 				BCDF1D6F249DD277008FA478 /* AppDelegate.swift in Sources */,
 				BCDF1D71249DD277008FA478 /* SceneDelegate.swift in Sources */,
+				BCDF1D94249DDCC9008FA478 /* DNTLSearchViewController.swift in Sources */,
+				BCDF1D98249DE0BE008FA478 /* MasterViewController.swift in Sources */,
+				BCDF1D96249DDD03008FA478 /* Suggestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
