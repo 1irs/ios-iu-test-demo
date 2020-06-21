@@ -14,7 +14,7 @@ class MasterViewController: UITableViewController {
         ("SearchVC", {
             let fakeSuggestService = FakeSuggestService(words: [
                 "Apple",
-                "Appricot",
+                "Apricot",
                 "Avocado",
                 "Banana",
                 "Blackberries",
