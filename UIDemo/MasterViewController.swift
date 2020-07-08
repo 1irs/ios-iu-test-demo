@@ -10,6 +10,8 @@ import UIKit
 
 class MasterViewController: UITableViewController {
 
+    // Collection of UIViewControllers under test.
+    // Implemented as pairs of titles and view-controller factories.
     var viewControllers : [(String, () -> UIViewController)] = [
         ("SearchVC", {
             let fakeSuggestService = FakeSuggestService(words: [
